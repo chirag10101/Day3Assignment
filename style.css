@@ -1,0 +1,39 @@
+.body{
+    height: 100%;
+    width: 100%;
+}
+.ListOfStudents{
+    min-height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+}
+.formandlist{
+    display: flex;
+    min-height: 300px;
+    width: 1000px;
+}
+#form{
+    display: none;
+}
+.heading1{
+    margin-left: 10px;
+}
+#studentList{
+    margin-left: 10px;
+}
+.inputs{
+    margin: 10px;
+}
+.buttons{
+    margin: 10px;
+}
+#NoRecords{
+    margin: 10px;
+    color: red;
+}
+#TotalStudents{
+    margin: 10px;
+}
+#TotalB002Students{
+    margin: 10px;
+}

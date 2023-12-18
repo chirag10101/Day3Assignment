@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formandlist">
+        <div class="ListOfStudents">
+            <div>
+                <h2 class="heading1">List Of Students</h2> 
+            </div> 
+            <div>
+                <h3 id="NoRecords">No Records</h3> 
+            </div>
+            <div>
+                <ol id="studentList">
+                    
+                </ol>
+            </div>
+        </div>
+        <div id="form" class="form">
+            <div class="inputs">
+                <label for="FirstName">FirstName</label>
+                <input id="txtFirstName" type="text">
+            </div>
+            <div class="inputs">
+                <label for="Address">Address</label>
+                <input id="txtAddress" type="text">
+            </div>
+            <div class="inputs">
+                <label for="Batch">Batch</label>
+                <input id="txtBatch" type="text" onkeydown="AddStudent(event)">
+            </div>
+            <div>
+                <h3 id="TotalStudents"></h3>
+            </div>
+            <div>
+                <h3 id="TotalB002Students"></h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="buttons" type="button" onclick="AddRecord()">Add New Record</button>
+        <button class="buttons" type="button" onclick="DeleteRecord()">Delete Record</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
